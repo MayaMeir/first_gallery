@@ -17,7 +17,7 @@ let numberInput = document.querySelector("#numbers");
 
 function addPic(e) {
     e.preventDefault();
-    if (new_pic.value) {
+    if (new_pic.value && title.value && numberInput.value) {
         images.push({ src: new_pic.value, title: title.value, numbers: numberInput.value});
         new_pic.value = '';
         title.value = '';
