@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Gallery</h1>
+    <form id="new_image">
+        <input type="text" id="image_url" placeholder="Enter URL Of Image Here...">
+        <input type="text" id="caption" placeholder="Enter Image Caption...">
+        <input type="number" id="numbers" placeholder="Enter Distance...">
+
+        <button onclick="addPic(event)" id="addbtn">Add Image</button>
+    </form>
+    <section id="gallery">
+    
+    </section>
+    <section id="big_img">
+        <figure id="enlarged_img">
+
+        </figure>
+    </section>
+    <div id="buttons">
+       <button class="btns" onclick="showPrev3()">Prev</button>       
+       <button class="btns" onclick="showNext3()">Next</button> 
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
