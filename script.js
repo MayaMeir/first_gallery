@@ -4,9 +4,9 @@ var new_pic = document.querySelector("#image_url");
 var bigImgFig = document.querySelector("#enlarged_img");
 var shownPics = [];
 let images = [
-    { src: "images/UFO.jpg", title: 'UFO', numbers: '3', id:'0'},
-    { src: "images/space.jpg", title: 'THE SPACE', numbers: '1', id:'1'},
-    { src: "images/nebula.jpg", title: 'NEBULA', numbers: '2', id:'2'}
+    { src: "UFO.jpg", title: 'UFO', numbers: '3', id:'0'},
+    { src: "space.jpg", title: 'THE SPACE', numbers: '1', id:'1'},
+    { src: "nebula.jpg", title: 'NEBULA', numbers: '2', id:'2'}
 ];
 let index = 0;
 let gallery = document.querySelector("#gallery");
