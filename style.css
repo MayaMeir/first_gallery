@@ -37,6 +37,7 @@ img{
     width: 300px;
     margin: 30px;
     margin-bottom:10px;
+    cursor: pointer;
 }
 
 #big_img{
